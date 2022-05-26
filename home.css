@@ -1,0 +1,265 @@
+body{
+ background-color: white;
+ display: inline;
+ margin: auto;
+}
+.imageh{
+    border-radius: 2px;
+    height: 450px;
+    width : 101%;
+    margin-left: -10px;
+
+}
+.navigation{
+    list-style-type: none;
+    
+    margin: 19px;
+    padding: -19px;
+}
+
+
+.titleweb{
+    position: absolute;
+    margin: 2px;
+    margin-top: -5px;
+    margin-left: -60px;
+    list-style-type: none;
+    font-size: 30px;
+    font-family: Algerian ;
+
+}
+ol li{
+    float: left;
+    margin-left: 5px;
+    /* color: tomato; */
+
+}
+.home{
+    color: #f06718;
+}
+.office{
+    color: #0077ff;
+}
+ul{
+    list-style-type: none;
+    display: block;
+    background-color: black;
+
+}
+.list .li_right{
+    float: right;
+}
+.list li{
+    float: left;
+    padding: 20px 10px;
+}
+.list li{
+}
+
+.log{
+
+    display: none;
+}
+.sing{
+
+    display: none;
+}
+
+   .log button {
+    width: 140px;
+    height: 32px;
+    font-size: 23px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    position: absolute;
+    margin-left: 510px;
+    transition: all 0.5s;
+    z-index: 1;
+   }
+   
+   .log button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0px;
+    height: 100%;
+    border-radius: 8px;
+    background-color:#091f66;
+    z-index: -1;
+    transition: all 0.5s;
+   }
+   
+   .log button:hover::before {
+    width: 100%;
+   }
+   
+   .log button:hover {
+    color: white;
+    background-color: #6788c2;
+    border-radius: 8px;
+   }
+.sing button {
+    width: 140px;
+    height: 32px;
+    font-size: 23px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    position: absolute;
+    margin-left: 650px;
+    transition: all 0.5s;
+    z-index: 1;
+   }
+   
+   .sing button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1px;
+    height: 100%;
+    border-radius: 8px;
+    background-color:#091f66;
+    z-index: -1;
+    transition: all 0.5s;
+
+   }
+   
+   .sing button:hover::before {
+    width: 100%;
+    /* background-color: red; */
+    /* border-radius: 8px; */
+
+    
+   }
+   
+   .sing button:hover {
+    color: white;
+    background-color: #6788c2;
+    border-radius: 8px;
+
+   }
+
+
+   .cta {
+    border: none;
+    background: none;
+    /* font-family: Algerian; */
+    /* font-weight: bolder; */
+   }
+   
+   .cta span {
+    padding-bottom: 7px;
+    letter-spacing: 1px;
+    /* font-size: 1px; */
+    padding-right: 1px;
+    text-transform: uppercase;
+   }
+   .hover-underline-animation {
+    position: relative;
+    /* color: tomato; */
+    /* padding-bottom: 20px; */
+    
+   }
+   
+   .hover-underline-animation:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1.5px;
+    bottom: 4px;
+    left: 0;
+    background-color: #f06718;
+    transform-origin: bottom left;
+    transition: transform 0.35s ease-out;
+   }
+   
+   .cta:hover .hover-underline-animation:after {
+    transform: scaleX(1);
+    /* transform-origin: bottom left; */
+    
+   }
+   .cta:hover{
+
+    color: red;
+    
+   }
+
+   .input{
+
+    position: absolute;
+    margin-left: -215px;
+    margin-top: 330px;
+    background-color: whreditesmoke;
+    border: none;
+    font-size: 20px;
+    height: 55px;
+    width: 350px;
+    border-top-left-radius: 23px;
+    border-bottom-left-radius :23px; 
+
+
+   }
+   .input:hover{
+
+    /* text-align: left; */
+    background-color: white;
+
+
+   }
+   .b{
+    position: absolute;
+    margin-left: 138px;
+    margin-top: 330px;
+    /* background-color: red; */
+    border: none;
+    height: 57px;
+    width: 100px;
+    border-top-right-radius: 23px;
+    border-bottom-right-radius :23px; 
+
+   }
+   .name{
+       position: absolute;
+       margin-left: 450px;
+       margin-top: 130px;
+       text-align: center;
+       color: blanchedalmond;
+        font-family:Algerian ;
+        list-style-type: none;
+    
+       font-size: 50px;
+   }
+   .name li{
+       color: whitesmoke;
+}
+
+ .card img{
+     
+ width: 350px;
+ height: 350px;
+ border-radius: 5px;
+ margin-top: 70px;
+}
+marquee{
+
+    scrollamount:15s;
+
+
+}
+
+
+    
+     
+
